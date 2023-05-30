@@ -129,7 +129,7 @@ button:hover {
 }
 
 #options input[type="number"],
-#options select[name="expiry_time"] {
+#options select[name="expiry"] {
   background-color: #333;
   border: none;
   border-radius: 5px;
@@ -144,13 +144,13 @@ button:hover {
 }
 
 #options input[type="number"]:hover,
-#options select[name="expiry_time"]:hover {
+#options select[name="expiry"]:hover {
   background-color: #444;
   cursor: pointer;
 }
 
 #options input[type="number"]:focus,
-#options select[name="expiry_time"]:focus {
+#options select[name="expiry"]:focus {
   background-color: #444;
   outline: none;
 }
@@ -210,7 +210,7 @@ button:hover {
   }
 
   #options input[type="number"],
-  #options select[name="expiry_time"] {
+  #options select[name="expiry"] {
     font-size: 14px;
     height: 25px;
     margin-right: 5px;

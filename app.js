@@ -2,8 +2,8 @@ const hole = document.getElementById("hole");
 const filelist = document.getElementById("filelist");
 const clearButton = document.getElementById("clear");
 const uploadButton = document.getElementById("upload");
-const urlLength = document.getElementById("url_length");
-const expiryTime = document.getElementById("expiry_time");
+const urlLength = document.getElementById("url_len");
+const expiryTime = document.getElementById("expiry");
 
 let files = [];
 
@@ -175,6 +175,3 @@ uploadButton.addEventListener("click", () => {
   // start uploading the first file
   uploadFile();
 });
-
-
-
