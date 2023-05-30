@@ -12,6 +12,23 @@ h1 {
   margin-bottom: 2px;
 }
 
+h1 small {
+  font-size: 8px;
+  /* make text align on top */
+  margin-bottom: -5px;
+  vertical-align: top;
+}
+
+.slogan {
+  /* gradient */
+  background: -webkit-linear-gradient(#1a4e1d, #c8ffa5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -10px;
+  font-size: 12px;
+  vertical-align: top;
+}
+
 h2 {
   font-size: 12px;
   margin-bottom: 20px;
