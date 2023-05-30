@@ -175,3 +175,6 @@ uploadButton.addEventListener("click", () => {
   // start uploading the first file
   uploadFile();
 });
+
+
+
